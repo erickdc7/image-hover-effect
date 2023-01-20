@@ -97,3 +97,23 @@ body {
 h2 {
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 370px) {
+  .container .card .content div h2 {
+    font-size: 1rem;
+  }
+
+  .container .card .content div p {
+    font-size: 0.75rem;
+  }
+
+  .container .card .content div {
+    padding: 20px;
+  }
+
+  .container .card {
+    width: calc(320px - 100px);
+    height: calc(420px - 100px);
+    margin: 5px;
+  }
+}
